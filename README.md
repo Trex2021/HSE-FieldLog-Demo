@@ -1,8 +1,10 @@
 # HSE FieldLog Demo
 
-Version **1.8.0** — Ehsan Benvari.
+Version **1.9.0** — Ehsan Benvari.
 
 [Open the web demonstration](https://trex2021.github.io/HSE-FieldLog-Demo/)
+
+The updated library includes 151 templates and 1,134 controls across 14 sectors, topic search grouped by applicable sector, specific-name matching and contextual field examples. Personal edits and historical inspections are preserved.
 
 This repository contains the compiled browser build of HSE FieldLog for demonstration. It includes checklist creation and editing, inspections, corrective actions, FMEA scoring, reports, and JSON backup and restore.
 

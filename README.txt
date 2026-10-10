@@ -1,19 +1,18 @@
-HSE FieldLog 1.8.0 - GitHub Pages demo package
-Copyright 2026 Ehsan Benvari
+HSE FieldLog 1.9.0 — GitHub Pages / subdirectory web package
 
-1. Create a separate PUBLIC repository named HSE-FieldLog-Demo on the Trex2021 account.
-2. Extract this archive and upload its CONTENTS (including the assets directory) to the repository root on main. Do not upload only the ZIP.
-3. In Settings > Pages, select Deploy from a branch, branch main, folder / (root), then Save.
-4. Wait for the Pages deployment to succeed. Expected location after publication:
-   https://trex2021.github.io/HSE-FieldLog-Demo/
-This URL is not live until GitHub Pages is enabled and deployed.
+151 safety checklists, 1,134 controls, 14 activity sectors.
+Search a checklist name or topic; choosing an activity sector is optional.
+Shared equipment uses neutral labels and sector-specific location examples.
+Personal catalog changes and historical inspections are preserved during upgrade.
 
-The application source repository Projekt-HSE remains private. This package contains compiled browser assets, which will be publicly readable, with no operational project records or source maps.
-Data and personal checklists are stored in the visitor's browser. Export a JSON backup before changing site address; the new address uses separate storage.
-The relative asset URLs and scoped service worker work under a repository subdirectory or at the site root.
+Upload the CONTENTS of this folder to an HTTPS static host, including assets/.
+For GitHub Pages, serve the chosen branch from its root. All app paths are relative.
+Local preview: python -m http.server 8080 --directory .
+Open http://localhost:8080 in a browser. Do not double-click index.html.
 
-Local preview of the same project path:
-  mkdir preview
-  Copy this package's contents to preview/HSE-FieldLog-Demo/
-  From preview, run python3 -m http.server 8080
-  Open http://localhost:8080/HSE-FieldLog-Demo/
+This package contains compiled web assets and generic demonstration data.
+Operational records stay on the current device. Use JSON backup/restore before
+moving to another browser or domain. Controls require the local risk assessment,
+equipment instructions and applicable rules; mark irrelevant controls as نامرتبط.
+
+Copyright Ehsan Benvari. Contact: benvari.e@yahoo.com · https://t.me/Ehsanyone
