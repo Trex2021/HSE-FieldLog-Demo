@@ -1,17 +1,12 @@
-# HSE FieldLog Demo
+# HSE FieldLog — web demonstration
 
-Version **1.9.0** — Ehsan Benvari.
+Version 1.9.1. A Persian safety log for 14 activity sectors, with 151 checklist templates and 1,134 field controls.
 
-[Open the web demonstration](https://trex2021.github.io/HSE-FieldLog-Demo/)
+Checklist search updates instantly and matches only current checklist names, including individual characters and fragments inside words. Word and full-name suggestions reflect the current catalog and optional sector filter. The existing responsive layout, inspection history and personal catalog edits are preserved.
 
-The updated library includes 151 templates and 1,134 controls across 14 sectors, topic search grouped by applicable sector, specific-name matching and contextual field examples. Personal edits and historical inspections are preserved.
+This repository contains compiled web assets and generic demonstration data. Operational records stay on the current device. Export JSON before moving browsers, changing domains, or reinstalling a native package. The private source repository and real workplace data are not published here.
 
-This repository contains the compiled browser build of HSE FieldLog for demonstration. It includes checklist creation and editing, inspections, corrective actions, FMEA scoring, reports, and JSON backup and restore.
+The built-in controls require site-specific risk assessment, competent-person review, equipment instructions and applicable rules.
 
-Operational project records and the application source repository are not included. Records and personal checklists entered in the demonstration stay in the visitor's browser. Export a JSON backup before changing device, browser, or site address.
-
-Published HTML, CSS, JavaScript, and generic checklist templates are publicly readable. Source maps are not included.
-
-The build supports GitHub Pages subdirectories and a scoped offline service worker. Deployment source: main branch, repository root.
-
-Copyright (c) 2026 Ehsan Benvari. See LICENSE.txt.
+Copyright © 2026 Ehsan Benvari. MIT license: LICENSE.txt.
+Contact: benvari.e@yahoo.com · Telegram: https://t.me/Ehsanyone

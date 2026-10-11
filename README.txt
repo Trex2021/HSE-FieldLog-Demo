@@ -1,7 +1,8 @@
-HSE FieldLog 1.9.0 — GitHub Pages / subdirectory web package
+HSE FieldLog 1.9.1 — GitHub Pages / subdirectory web package
 
 151 safety checklists, 1,134 controls, 14 activity sectors.
-Search a checklist name or topic; choosing an activity sector is optional.
+Search any characters inside checklist names; results update instantly.
+Word and full-name suggestions use current titles; sector selection is optional.
 Shared equipment uses neutral labels and sector-specific location examples.
 Personal catalog changes and historical inspections are preserved during upgrade.
 
