@@ -1,19 +1,9 @@
-HSE FieldLog 1.9.1 — GitHub Pages / subdirectory web package
+HSE FieldLog 1.10.0 — GitHub Pages / subdirectory web package
 
-151 safety checklists, 1,134 controls, 14 activity sectors.
-Search any characters inside checklist names; results update instantly.
-Word and full-name suggestions use current titles; sector selection is optional.
-Shared equipment uses neutral labels and sector-specific location examples.
-Personal catalog changes and historical inspections are preserved during upgrade.
+Upload this folder's contents to an HTTPS static host. All paths are relative.
+Open the application once before offline use. Numbered QR frames are intended for small checklist packages; use a JSON file for larger ones.
+Select templates using خروجی و اشتراک چک‌لیست. Import using دریافت چک‌لیست, inspect every proposed change, choose actions, then approve. Importing a file never changes records automatically. Template packages do not carry findings or completed inspections.
+Use full JSON backup before moving to another browser/domain or reinstalling.
 
-Upload the CONTENTS of this folder to an HTTPS static host, including assets/.
-For GitHub Pages, serve the chosen branch from its root. All app paths are relative.
-Local preview: python -m http.server 8080 --directory .
-Open http://localhost:8080 in a browser. Do not double-click index.html.
-
-This package contains compiled web assets and generic demonstration data.
-Operational records stay on the current device. Use JSON backup/restore before
-moving to another browser or domain. Controls require the local risk assessment,
-equipment instructions and applicable rules; mark irrelevant controls as نامرتبط.
-
-Copyright Ehsan Benvari. Contact: benvari.e@yahoo.com · https://t.me/Ehsanyone
+Compiled demonstration assets and generic examples only.
+Copyright Ehsan Benvari · benvari.e@yahoo.com · https://t.me/Ehsanyone

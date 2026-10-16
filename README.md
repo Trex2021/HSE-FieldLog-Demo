@@ -1,12 +1,13 @@
-# HSE FieldLog — web demonstration
+# HSE FieldLog 1.10.0
 
-Version 1.9.1. A Persian safety log for 14 activity sectors, with 151 checklist templates and 1,134 field controls.
+[Open the demonstration](https://trex2021.github.io/HSE-FieldLog-Demo/)
 
-Checklist search updates instantly and matches only current checklist names, including individual characters and fragments inside words. Word and full-name suggestions reflect the current catalog and optional sector filter. The existing responsive layout, inspection history and personal catalog edits are preserved.
+Persian safety checklists for 14 activity sectors. This public repository contains compiled demonstration assets only. Operational records and the original source project are not included.
 
-This repository contains compiled web assets and generic demonstration data. Operational records stay on the current device. Export JSON before moving browsers, changing domains, or reinstalling a native package. The private source repository and real workplace data are not published here.
+## Checklist exchange
 
-The built-in controls require site-specific risk assessment, competent-person review, equipment instructions and applicable rules.
+Use **خروجی و اشتراک چک‌لیست** to select templates and save a common JSON package. Transfer it through any available file-sharing method. Use **دریافت چک‌لیست** on Android, Windows or web to review additions, updates, explicit deletions and conflicts. Nothing is applied until the recipient chooses actions and approves them. Omitted templates, inspection history and personal records are preserved. Small packages can also travel as numbered QR images.
 
-Copyright © 2026 Ehsan Benvari. MIT license: LICENSE.txt.
-Contact: benvari.e@yahoo.com · Telegram: https://t.me/Ehsanyone
+All processing stays on the device. Open once before offline use. Full JSON backup is separate from template exchange. Safety controls require the local risk assessment and equipment instructions.
+
+Copyright Ehsan Benvari · benvari.e@yahoo.com · https://t.me/Ehsanyone
