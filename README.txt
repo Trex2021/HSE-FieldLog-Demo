@@ -1,4 +1,4 @@
-HSE FieldLog 1.10.0 — GitHub Pages / subdirectory web package
+HSE FieldLog 1.11.0 — GitHub Pages / subdirectory web package
 
 Upload this folder's contents to an HTTPS static host. All paths are relative.
 Open the application once before offline use. Numbered QR frames are intended for small checklist packages; use a JSON file for larger ones.

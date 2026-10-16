@@ -1,7 +1,7 @@
 const BASE_PATH = new URL("./", self.location.href).pathname;
 const CACHE_PREFIX = `hse-fieldlog:${BASE_PATH}:`;
-const CACHE_NAME = `${CACHE_PREFIX}v1.10.0`;
-const RELATIVE_FILES = ["", ".nojekyll", "LICENSE.txt", "README.md", "README.txt", "assets/index-C12ACvTK.css", "assets/index-MM3u4Cp8.js", "assets/jsQR-Brm5Ca9I.js", "assets/web-BLG3qutR.js", "assets/web-D6V1b_M4.js", "assets/web-DZjD5JdE.js", "favicon.svg", "file.svg", "globe.svg", "index.html", "manifest.webmanifest", "window.svg"];
+const CACHE_NAME = `${CACHE_PREFIX}v1.11.0`;
+const RELATIVE_FILES = ["", ".nojekyll", "LICENSE.txt", "README.md", "README.txt", "assets/index-BWTjRaaN.css", "assets/index-CEpUvrhv.js", "assets/jsQR-CdmbV-in.js", "assets/web-28okV6-E.js", "assets/web-CK4BBkgy.js", "assets/web-CQ9xQbFx.js", "favicon.svg", "file.svg", "globe.svg", "index.html", "manifest.webmanifest", "window.svg"];
 const APP_SHELL = RELATIVE_FILES.map((path) => `${BASE_PATH}${path}`);
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME)

@@ -1,4 +1,4 @@
-# HSE FieldLog 1.10.0
+# HSE FieldLog 1.11.0
 
 [Open the demonstration](https://trex2021.github.io/HSE-FieldLog-Demo/)
 
